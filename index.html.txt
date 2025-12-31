@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Almaida Jewellery Store</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/main.jsx"></script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Almaida Jewellery Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { border: 1px solid #ccc; padding: 15px; }
+    img { width: 100%; }
+    button { padding: 8px 12px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<h1>Almaida Jewellery Store</h1>
+<p>Luxury Gold • Diamond • Bridal Jewellery</p>
+
+<div class="grid">
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h3>Gold Necklace</h3>
+    <p>PKR 150,000</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250">
+    <h3>Diamond Ring</h3>
+    <p>PKR 250,000</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="card">
